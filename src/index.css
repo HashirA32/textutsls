@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
+     
+.fractions {
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr);
+  background-color: rgba(16, 21, 27, 0.918);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80dvh;
+  
+}
+.card {
+  width: 20rem;
+  background-color: rgba(255, 255, 255, 0.899);
+}
+
+.text-center {
+  width: auto;
 }

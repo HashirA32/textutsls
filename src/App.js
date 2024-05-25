@@ -1,25 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './comps/Navbar';
+import PropTypes from 'prop-types';
+import Footer from './comps/Footer';
+import Content from './comps/Content';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-            Hashir
-        </a>
-      </header>
-    </div>
+   <> 
+      <div className="fractions">
+      <Navbar title = "Hashir" about = "about"/>
+      < Content/>
+      <Footer/>
+      </div>
+   </>
   );
 }
 
 export default App;
+Navbar.PropTypes = {title : PropTypes.string,
+                    about : PropTypes.string,
+}
