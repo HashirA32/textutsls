@@ -22,4 +22,5 @@ function App() {
 export default App;
 Navbar.propTypes = {title : PropTypes.string,
                     about : PropTypes.string,
+                    heading : PropTypes.string,
 }
