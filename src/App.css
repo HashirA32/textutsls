@@ -12,3 +12,14 @@
   justify-content: center;
   align-items:stretch;
 }
+
+
+.Icon {
+  background-color: aliceblue;
+}
+
+.btn {
+  height: auto;
+  width: 5rem;
+margin-left: 100dvh;
+}
